@@ -1,0 +1,16 @@
+num = int(input('enter the number of students:'))
+stud_rec = {}
+for i in range(num):
+    stud_name = input('enter the student name:')
+    stud_marks1 = int(input('enter the student marks of physics:')
+    stud_marks2 = int(input('enter the student marks of chemistry:')
+    stud_marks3 = int(input('enter the student marks of maths:')
+    avg_of_marks = (stud_marks1+stud_marks2+stud_marks3)/2
+    stud_rec[stud_name] = avg_of_marks
+while True:
+    stud_name = input('enter the student name:')
+    avg_of_marks = d.get(stud_name,-1)
+    if stud_name == -1:
+        print('student not found')
+    else:
+        print('the name of student is',stud_name,'marks',avg_of_stud)
